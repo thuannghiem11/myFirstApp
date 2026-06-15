@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFirstCoolProject</string>
+    <string name = "horizontal_hint" > Thành phần trượt ngang sẽ nằm ở đây</string>
+    <string name ="medical_reminder">Lưu ý khi uống thuốc</string>
+    <string name = "medicine_name">Tên thuốc</string>
+    <string name = "checkbox_icon">checkbox icon</string>
+    <string name ="user_icon">user icon</string>
+    <string name = "add_medicine_icon" >add medicine icon</string>
+
+
+</resources>

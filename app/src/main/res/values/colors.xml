@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name = "morning_section">#FBDF55</color>
+    <color name = "noon_section">#EB5E55</color>
+    <color name = "nigh_section">#2158B7</color>
+    <color name = "dark_background">#03191E</color>
+    <color name = "bottom_navigation_color">#E5FCF5</color>
+</resources>
