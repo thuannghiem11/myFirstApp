@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="24dp"
+    app:cardBackgroundColor="@color/morning_section"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMedicineName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medicine_name"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtReminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medical_reminder"
+                android:textColor="#444444"
+                android:textSize="20sp"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/isTaken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="2.0"
+            android:scaleY="2.0"
+            android:buttonTint="#000000" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="#0A1118">
 
 <!--    bottom navigator-->
@@ -45,45 +46,70 @@
 
         >
 
-
         <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp" >
-
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding ="16dp"
+        >
             <LinearLayout
+                android:id="@+id/morning_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="16dp"
-                >
+                android:layout_marginBottom="24dp">
+
                 <LinearLayout
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:background="@color/morning_section"
-                    android:padding = "16dp"
-                    >
-                  <TextView
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text = "@string/medicine_name"
-                      /><TextView
+                    android:gravity="center_horizontal">
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text = "@string/medical_reminder" />
+                        android:textColor="@color/morning_section"
+                        android:text="@string/morning_time" />
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:src="@drawable/ic_morning_sun"
+                        android:layout_marginTop="6dp"/>
+
+                    <View
+                        android:id="@+id/viewMorningLine"
+                        android:layout_width="4dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/morning_section"
+                        android:layout_marginTop="8dp"
+
+                        />
                 </LinearLayout>
 
-                <CheckBox
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"></CheckBox>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="12dp"
+
+                    tools:layout_height="150dp"
+                    >
 
 
+
+                </LinearLayout>
 
             </LinearLayout>
 
+
+
         </LinearLayout>
+
+
+
+
 
     </ScrollView>
 

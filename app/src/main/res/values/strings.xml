@@ -6,6 +6,7 @@
     <string name = "checkbox_icon">checkbox icon</string>
     <string name ="user_icon">user icon</string>
     <string name = "add_medicine_icon" >add medicine icon</string>
+    <string name = "morning_time">Sáng</string>
 
 
 </resources>
